@@ -2,15 +2,13 @@
 
 Design documentation for a local-first, graph-augmented multi-agent assistant. The proposed system combines SQLite graph memory, ChromaDB semantic retrieval, and manager/worker language models served through LM Studio.
 
-> **Project status: architecture showcase.** The published application snapshot contains `README.md` and `LICENSE`; it does not include executable source, dependency manifests, configuration examples, or tests. This documentation update adds an improvement plan. The architecture below describes intended behavior, which cannot yet be reproduced or independently verified from this repository.
-
-See [improvement_repo.md](improvement_repo.md) for the delivery roadmap, implementation requirements, and acceptance checks.
+> **Project status: architecture showcase.** The published application snapshot contains `README.md` and `LICENSE`; it does not include executable source, dependency manifests, configuration examples, or tests. The architecture below describes intended behavior, which cannot yet be reproduced or independently verified from this repository.
 
 ## What you can use today
 
 - Review the proposed memory model, retrieval strategy, and integration boundaries.
 - Use the [MIT license](LICENSE) for the material published here.
-- Plan a runnable baseline using the improvement checklist.
+- Review the delivery roadmap below before implementing a runnable baseline.
 
 There is no supported installation or startup command for this checkout. The previously described `app/`, `prompts/`, `whatsapp_bridge/`, `requirements.txt`, and `.env.example` are absent from the application snapshot. No accessible, versioned implementation is linked here. A working service, trained model, or deployment is not supplied.
 
@@ -121,7 +119,7 @@ A release should demonstrate that:
 4. Document integration setup only after the configuration, scopes, and runtime controls can be checked against source.
 5. Add measured retrieval/latency results and a tested hardware matrix before making performance or deployment claims.
 
-The detailed tasks and completion criteria are in [improvement_repo.md](improvement_repo.md). Contributions should keep implemented behavior, proposed behavior, and measured results clearly identified.
+Contributions should keep implemented behavior, proposed behavior, and measured results clearly identified.
 
 ## License
 
